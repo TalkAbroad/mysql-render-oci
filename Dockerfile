@@ -1,6 +1,6 @@
 # You can change this to a newer version of MySQL available at
 # https://hub.docker.com/r/mysql/mysql-server/tags/
-FROM mysql/mysql-server:5.7
+FROM mysql/mysql-server:5.6
 
 # Add timezone data
 RUN yum install -y tzdata && \
